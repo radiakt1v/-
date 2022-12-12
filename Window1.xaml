@@ -1,0 +1,27 @@
+﻿<Window x:Class="Учебнаяпрактика.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Учебнаяпрактика"
+        mc:Ignorable="d"
+        Title="Каталог" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="zakazbut" Content="Заказы" Grid.Column="0" Click="zakazbut_Click" Margin="147,10,340,168" Grid.ColumnSpan="2"/>
+        <Button x:Name="klientbut" Content="Клиенты" Click="klientbut_Click" Margin="147,122,340,56" Grid.ColumnSpan="2"/>
+        <Button x:Name="hpbut" Content="Лекарства" Click="hpbut_Click" Margin="147,67,340,111" Grid.ColumnSpan="2"/>
+        <Button x:Name="helpbutbut" Content="Справочник" Click="helpbutbut_Click" Margin="147,178,340,0" Grid.ColumnSpan="2"/>
+        <Label Content="Каталог:" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" VerticalAlignment="Top" Width="79"/>
+        <Button x:Name="exitbut" Content="Выйти" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="300,179,0,0" Grid.Row="1" VerticalAlignment="Top" Width="86" Click="exitbut_Click"/>
+        <Button x:Name="vixod" Content="Закрыть" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="209,179,0,0" Grid.Row="1" VerticalAlignment="Top" Width="86" Click="vixod_Click"/>
+    </Grid>
+</Window>
