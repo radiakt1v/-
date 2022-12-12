@@ -22,6 +22,6 @@
         <Button x:Name="helpbutbut" Content="Справочник" Click="helpbutbut_Click" Margin="147,178,340,0" Grid.ColumnSpan="2"/>
         <Label Content="Каталог:" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" VerticalAlignment="Top" Width="79"/>
         <Button x:Name="exitbut" Content="Выйти" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="300,179,0,0" Grid.Row="1" VerticalAlignment="Top" Width="86" Click="exitbut_Click"/>
-        <Button x:Name="vixod" Content="Закрыть" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="209,179,0,0" Grid.Row="1" VerticalAlignment="Top" Width="86" Click="vixod_Click"/>
+        
     </Grid>
 </Window>
